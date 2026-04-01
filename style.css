@@ -333,7 +333,7 @@ body::before {
     background: var(--bg-terminal);
     border: 1px solid var(--text-purple);
     border-radius: var(--border-radius);
-    overflow: hidden;
+    overflow: visible;
     font-family: var(--font-mono);
     box-shadow: 
         0 0 20px rgba(138, 43, 226, 0.2),
@@ -1276,16 +1276,16 @@ body::before {
 /* Pokémon pixelado */
 .pokemon-pixel {
     position: absolute;
-    top: -30px;
-    right: -30px;
+    bottom: 20px;
+    right: 20px;
     z-index: 10;
     pointer-events: none;
     animation: float 3s ease-in-out infinite;
 }
 
 .pokemon-pixel img {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
