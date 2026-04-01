@@ -11,10 +11,10 @@ const projects = [
     {
         name: "Redflix",
         description: "Plataforma de streaming con sistema de login seguro, reproductor de películas y base de datos.",
-        url: "https://redflix-qi2j.vercel.app/login",
+        url: "https://redflix-rust.vercel.app/",
         github: "https://github.com/RenzoOcu/Redflix",
         tech: ["React", "Prisma", "TypeScript", "Next.js"],
-        screenshot: "https://v1.screenshot.11ty.dev/https%3A%2F%2Fredflix-qi2j.vercel.app%2Flogin/opengraph"
+        screenshot: "https://v1.screenshot.11ty.dev/https%3A%2F%2Fredflix-rust.vercel.app%2F/opengraph"
     },
     {
         name: "LISTO Ovalo La Marina",
@@ -38,7 +38,7 @@ const projects = [
         url: "https://github.com/RenzoOcu/Sistema-de-inventario-para-una-polleria-",
         github: "https://github.com/RenzoOcu/Sistema-de-inventario-para-una-polleria-",
         tech: ["React", "Node.js", "Zustand", "Supabase"],
-        screenshot: null // No tiene URL desplegada
+        screenshot: "https://lh3.googleusercontent.com/d/13DiiPKVDsoGD9s1O-eeYmwEAsz7OTOF4=s800"
     },
     {
         name: "Spotyfan",
@@ -46,7 +46,7 @@ const projects = [
         url: "https://github.com/RenzoOcu/spotyfan-",
         github: "https://github.com/RenzoOcu/spotyfan-",
         tech: ["Astro", "React", "shadcn", "Local JSON"],
-        screenshot: null // No tiene URL desplegada
+        screenshot: "https://lh3.googleusercontent.com/d/1X_hg9EJt6AFdSPdtX5MBXr5z6Bncfpxx=s800"
     }
 ];
 
